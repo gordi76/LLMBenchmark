@@ -25,5 +25,3 @@ pruned = questions[questions["id"].isin(pruned_ids)]
 pruned.to_csv("pruned_questions_balanced.csv", index=False)
 
 print(f"Balanced reduziert: {len(pruned)} Fragen")
-
-test = print("test")
