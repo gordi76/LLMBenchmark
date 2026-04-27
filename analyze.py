@@ -2,7 +2,6 @@ import pandas as pd
 
 df = pd.read_csv("results.csv")
 
-# Pivot: rows = question, columns = model
 pivot = df.pivot(index="question_id", columns="model", values="is_correct")
 
 print("=== Gesamt Accuracy ===")
@@ -16,7 +15,6 @@ print("\n=== Differenzierende Fragen ===")
 diff = pivot.nunique(axis=1) > 1
 print(f"{diff.sum()} von {len(pivot)} Fragen unterscheiden sich")
 
-# Optional speichern
 pivot["is_same"] = same
 pivot.to_csv("analysis.csv")
 
