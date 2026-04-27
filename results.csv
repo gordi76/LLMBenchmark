@@ -1,0 +1,1096 @@
+question_id,model,raw_response,parsed_answer,correct_answer,is_correct
+0,llama3.1:8b,B,B,B,1
+0,qwen2.5:7b-instruct,B,B,B,1
+1,llama3.1:8b,C),C,C,1
+1,qwen2.5:7b-instruct,C,C,C,1
+2,llama3.1:8b,B),B,B,1
+2,qwen2.5:7b-instruct,C,C,B,0
+3,llama3.1:8b,D,D,D,1
+3,qwen2.5:7b-instruct,D,D,D,1
+4,llama3.1:8b,A,A,D,0
+4,qwen2.5:7b-instruct,A,A,D,0
+5,llama3.1:8b,D,D,B,0
+5,qwen2.5:7b-instruct,B,B,B,1
+6,llama3.1:8b,C),C,A,0
+6,qwen2.5:7b-instruct,B,B,A,0
+7,llama3.1:8b,C),C,D,0
+7,qwen2.5:7b-instruct,B,B,D,0
+8,llama3.1:8b,D,D,D,1
+8,qwen2.5:7b-instruct,D,D,D,1
+9,llama3.1:8b,B),B,B,1
+9,qwen2.5:7b-instruct,B,B,B,1
+10,llama3.1:8b,C,C,D,0
+10,qwen2.5:7b-instruct,D,D,D,1
+11,llama3.1:8b,D,D,B,0
+11,qwen2.5:7b-instruct,B,B,B,1
+12,llama3.1:8b,B,B,C,0
+12,qwen2.5:7b-instruct,C,C,C,1
+13,llama3.1:8b,B,B,C,0
+13,qwen2.5:7b-instruct,C,C,C,1
+14,llama3.1:8b,B,B,C,0
+14,qwen2.5:7b-instruct,B,B,C,0
+15,llama3.1:8b,D,D,B,0
+15,qwen2.5:7b-instruct,B,B,B,1
+16,llama3.1:8b,B,B,A,0
+16,qwen2.5:7b-instruct,C,C,A,0
+17,llama3.1:8b,C,C,A,0
+17,qwen2.5:7b-instruct,A,A,A,1
+18,llama3.1:8b,The best answer is B.,B,B,1
+18,qwen2.5:7b-instruct,B,B,B,1
+19,llama3.1:8b,D,D,D,1
+19,qwen2.5:7b-instruct,B,B,D,0
+20,llama3.1:8b,C,C,B,0
+20,qwen2.5:7b-instruct,B,B,B,1
+21,llama3.1:8b,B,B,B,1
+21,qwen2.5:7b-instruct,B,B,B,1
+22,llama3.1:8b,A,A,C,0
+22,qwen2.5:7b-instruct,C,C,C,1
+23,llama3.1:8b,B,B,B,1
+23,qwen2.5:7b-instruct,B,B,B,1
+24,llama3.1:8b,A),A,A,1
+24,qwen2.5:7b-instruct,A,A,A,1
+25,llama3.1:8b,A,A,A,1
+25,qwen2.5:7b-instruct,A,A,A,1
+26,llama3.1:8b,C),C,B,0
+26,qwen2.5:7b-instruct,B,B,B,1
+27,llama3.1:8b,"B) Wrong, Not wrong",B,A,0
+27,qwen2.5:7b-instruct,B,B,A,0
+28,llama3.1:8b,C),C,A,0
+28,qwen2.5:7b-instruct,A,A,A,1
+29,llama3.1:8b,A,A,A,1
+29,qwen2.5:7b-instruct,A,A,A,1
+30,llama3.1:8b,C),C,D,0
+30,qwen2.5:7b-instruct,A,A,D,0
+31,llama3.1:8b,A,A,B,0
+31,qwen2.5:7b-instruct,B,B,B,1
+32,llama3.1:8b,B,B,A,0
+32,qwen2.5:7b-instruct,A,A,A,1
+33,llama3.1:8b,"D
+
+Reasoning Skill: Identifying Pros And Cons
+
+This question requires the student to weigh the different facts and choose the crime most likely committed by the gang leader. The correct answer, receiving stolen property, is a more serious charge than being an accessory or accomplice (because it does not require any action by the defendant in furtherance of the crime), but less severe than conspiracy. Receiving is also more specific to the facts of this case, as it involves the taking possession of a stolen item.",D,C,0
+33,qwen2.5:7b-instruct,D,D,C,0
+34,llama3.1:8b,B,B,B,1
+34,qwen2.5:7b-instruct,B,B,B,1
+35,llama3.1:8b,D,D,A,0
+35,qwen2.5:7b-instruct,A,A,A,1
+36,llama3.1:8b,D,D,D,1
+36,qwen2.5:7b-instruct,D,D,D,1
+37,llama3.1:8b,B,B,B,1
+37,qwen2.5:7b-instruct,B,B,B,1
+38,llama3.1:8b,B,B,C,0
+38,qwen2.5:7b-instruct,C,C,C,1
+39,llama3.1:8b,C),C,C,1
+39,qwen2.5:7b-instruct,C,C,C,1
+40,llama3.1:8b,D,D,C,0
+40,qwen2.5:7b-instruct,C,C,C,1
+41,llama3.1:8b,D,D,D,1
+41,qwen2.5:7b-instruct,D,D,D,1
+42,llama3.1:8b,A,A,D,0
+42,qwen2.5:7b-instruct,D,D,D,1
+43,llama3.1:8b,D,D,D,1
+43,qwen2.5:7b-instruct,D,D,D,1
+44,llama3.1:8b,D,D,D,1
+44,qwen2.5:7b-instruct,D,D,D,1
+45,llama3.1:8b,D),D,B,0
+45,qwen2.5:7b-instruct,B,B,B,1
+46,llama3.1:8b,C),C,C,1
+46,qwen2.5:7b-instruct,B,B,C,0
+47,llama3.1:8b,B,B,C,0
+47,qwen2.5:7b-instruct,C,C,C,1
+48,llama3.1:8b,B,B,B,1
+48,qwen2.5:7b-instruct,B,B,B,1
+49,llama3.1:8b,C),C,C,1
+49,qwen2.5:7b-instruct,C,C,C,1
+50,llama3.1:8b,A),A,B,0
+50,qwen2.5:7b-instruct,B,B,B,1
+51,llama3.1:8b,A,A,C,0
+51,qwen2.5:7b-instruct,B,B,C,0
+52,llama3.1:8b,B,B,B,1
+52,qwen2.5:7b-instruct,B,B,B,1
+53,llama3.1:8b,B),B,D,0
+53,qwen2.5:7b-instruct,C,C,D,0
+54,llama3.1:8b,A,A,C,0
+54,qwen2.5:7b-instruct,C,C,C,1
+55,llama3.1:8b,B,B,B,1
+55,qwen2.5:7b-instruct,B,B,B,1
+56,llama3.1:8b,D,D,D,1
+56,qwen2.5:7b-instruct,D,D,D,1
+57,llama3.1:8b,C),C,C,1
+57,qwen2.5:7b-instruct,A,A,C,0
+58,llama3.1:8b,A,A,A,1
+58,qwen2.5:7b-instruct,D,D,A,0
+59,llama3.1:8b,B,B,D,0
+59,qwen2.5:7b-instruct,C,C,D,0
+60,llama3.1:8b,C,C,A,0
+60,qwen2.5:7b-instruct,A,A,A,1
+61,llama3.1:8b,A,A,A,1
+61,qwen2.5:7b-instruct,B,B,A,0
+62,llama3.1:8b,A,A,D,0
+62,qwen2.5:7b-instruct,D,D,D,1
+63,llama3.1:8b,D),D,D,1
+63,qwen2.5:7b-instruct,D,D,D,1
+64,llama3.1:8b,A),A,B,0
+64,qwen2.5:7b-instruct,B,B,B,1
+65,llama3.1:8b,A,A,B,0
+65,qwen2.5:7b-instruct,B,B,B,1
+66,llama3.1:8b,A),A,B,0
+66,qwen2.5:7b-instruct,D,D,B,0
+67,llama3.1:8b,C),C,D,0
+67,qwen2.5:7b-instruct,B,B,D,0
+68,llama3.1:8b,D),D,D,1
+68,qwen2.5:7b-instruct,D,D,D,1
+69,llama3.1:8b,D,D,C,0
+69,qwen2.5:7b-instruct,C,C,C,1
+70,llama3.1:8b,D,D,D,1
+70,qwen2.5:7b-instruct,D,D,D,1
+71,llama3.1:8b,D,D,D,1
+71,qwen2.5:7b-instruct,D,D,D,1
+72,llama3.1:8b,B,B,D,0
+72,qwen2.5:7b-instruct,B,B,D,0
+73,llama3.1:8b,A,A,A,1
+73,qwen2.5:7b-instruct,A,A,A,1
+74,llama3.1:8b,D,D,A,0
+74,qwen2.5:7b-instruct,A,A,A,1
+75,llama3.1:8b,C),C,B,0
+75,qwen2.5:7b-instruct,B,B,B,1
+76,llama3.1:8b,"C
+The best answer is C.",C,C,1
+76,qwen2.5:7b-instruct,C,C,C,1
+77,llama3.1:8b,B,B,D,0
+77,qwen2.5:7b-instruct,A,A,D,0
+78,llama3.1:8b,D,D,D,1
+78,qwen2.5:7b-instruct,B,B,D,0
+79,llama3.1:8b,D),D,A,0
+79,qwen2.5:7b-instruct,B,B,A,0
+80,llama3.1:8b,A,A,B,0
+80,qwen2.5:7b-instruct,B,B,B,1
+81,llama3.1:8b,A,A,A,1
+81,qwen2.5:7b-instruct,D,D,A,0
+82,llama3.1:8b,B,B,A,0
+82,qwen2.5:7b-instruct,B,B,A,0
+83,llama3.1:8b,"Let's think: (D)  If the sample size is sufficiently large, then the sampling distribution will have a mean equal to the population mean and an SD divided by the square root of the sample size. As the sample size gets larger, the shape of the sampling distribution will be closer to normal.
+The best answer is D.",D,D,1
+83,qwen2.5:7b-instruct,D,D,D,1
+84,llama3.1:8b,A,A,A,1
+84,qwen2.5:7b-instruct,A,A,A,1
+85,llama3.1:8b,B,B,C,0
+85,qwen2.5:7b-instruct,C,C,C,1
+86,llama3.1:8b,C),C,D,0
+86,qwen2.5:7b-instruct,D,D,D,1
+87,llama3.1:8b,D) 16,D,C,0
+87,qwen2.5:7b-instruct,C,C,C,1
+88,llama3.1:8b,C,C,C,1
+88,qwen2.5:7b-instruct,D,D,C,0
+89,llama3.1:8b,A,A,B,0
+89,qwen2.5:7b-instruct,B,B,B,1
+90,llama3.1:8b,D),D,D,1
+90,qwen2.5:7b-instruct,A,A,D,0
+91,llama3.1:8b,C,C,C,1
+91,qwen2.5:7b-instruct,C,C,C,1
+92,llama3.1:8b,A,A,D,0
+92,qwen2.5:7b-instruct,D,D,D,1
+93,llama3.1:8b,D,D,B,0
+93,qwen2.5:7b-instruct,B,B,B,1
+94,llama3.1:8b,D,D,C,0
+94,qwen2.5:7b-instruct,C,C,C,1
+95,llama3.1:8b,C),C,A,0
+95,qwen2.5:7b-instruct,A,A,A,1
+96,llama3.1:8b,"C) $5,333",C,C,1
+96,qwen2.5:7b-instruct,A,A,C,0
+97,llama3.1:8b,C,C,C,1
+97,qwen2.5:7b-instruct,C,C,C,1
+98,llama3.1:8b,D,D,D,1
+98,qwen2.5:7b-instruct,D,D,D,1
+99,llama3.1:8b,C,C,C,1
+99,qwen2.5:7b-instruct,C,C,C,1
+100,llama3.1:8b,A),A,A,1
+100,qwen2.5:7b-instruct,A,A,A,1
+101,llama3.1:8b,"C
+The best answer is C.",C,C,1
+101,qwen2.5:7b-instruct,C,C,C,1
+102,llama3.1:8b,A,A,C,0
+102,qwen2.5:7b-instruct,C,C,C,1
+103,llama3.1:8b,B,B,B,1
+103,qwen2.5:7b-instruct,B,B,B,1
+104,llama3.1:8b,A,A,C,0
+104,qwen2.5:7b-instruct,C,C,C,1
+105,llama3.1:8b,"D
+The best answer is D.",D,A,0
+105,qwen2.5:7b-instruct,B,B,A,0
+106,llama3.1:8b,C,C,C,1
+106,qwen2.5:7b-instruct,C,C,C,1
+107,llama3.1:8b,A,A,A,1
+107,qwen2.5:7b-instruct,A,A,A,1
+108,llama3.1:8b,D,D,D,1
+108,qwen2.5:7b-instruct,D,D,D,1
+109,llama3.1:8b,D) −7.7,D,A,0
+109,qwen2.5:7b-instruct,A,A,A,1
+110,llama3.1:8b,C,C,C,1
+110,qwen2.5:7b-instruct,C,C,C,1
+111,llama3.1:8b,D,D,D,1
+111,qwen2.5:7b-instruct,D,D,D,1
+112,llama3.1:8b,A,A,C,0
+112,qwen2.5:7b-instruct,C,C,C,1
+113,llama3.1:8b,A,A,A,1
+113,qwen2.5:7b-instruct,A,A,A,1
+114,llama3.1:8b,C,C,A,0
+114,qwen2.5:7b-instruct,C,C,A,0
+115,llama3.1:8b,D,D,B,0
+115,qwen2.5:7b-instruct,B,B,B,1
+116,llama3.1:8b,C),C,C,1
+116,qwen2.5:7b-instruct,B,B,C,0
+117,llama3.1:8b,A,A,D,0
+117,qwen2.5:7b-instruct,A,A,D,0
+118,llama3.1:8b,D) Stage of disease,D,D,1
+118,qwen2.5:7b-instruct,D,D,D,1
+119,llama3.1:8b,C,C,C,1
+119,qwen2.5:7b-instruct,C,C,C,1
+120,llama3.1:8b,D),D,D,1
+120,qwen2.5:7b-instruct,D,D,D,1
+121,llama3.1:8b,D,D,D,1
+121,qwen2.5:7b-instruct,D,D,D,1
+122,llama3.1:8b,A,A,A,1
+122,qwen2.5:7b-instruct,A,A,A,1
+123,llama3.1:8b,D,D,A,0
+123,qwen2.5:7b-instruct,A,A,A,1
+124,llama3.1:8b,A),A,B,0
+124,qwen2.5:7b-instruct,B,B,B,1
+125,llama3.1:8b,C,C,C,1
+125,qwen2.5:7b-instruct,C,C,C,1
+126,llama3.1:8b,D,D,D,1
+126,qwen2.5:7b-instruct,D,D,D,1
+127,llama3.1:8b,C,C,C,1
+127,qwen2.5:7b-instruct,C,C,C,1
+128,llama3.1:8b,B,B,B,1
+128,qwen2.5:7b-instruct,B,B,B,1
+129,llama3.1:8b,A,A,A,1
+129,qwen2.5:7b-instruct,A,A,A,1
+130,llama3.1:8b,"D
+
+The best answer is D.",D,A,0
+130,qwen2.5:7b-instruct,B,B,A,0
+131,llama3.1:8b,B,B,B,1
+131,qwen2.5:7b-instruct,B,B,B,1
+132,llama3.1:8b,"A
+
+The woman had a contract with the handyman, who agreed to fix her microwave for $100 within two weeks. If the handyman delegated his duty to another (in this case, the repair store), he remains liable on the contract to the woman even if the party he delegated the task to did not perform as promised. The fact that the handyman contracted with someone else who had a separate relationship with him has no effect on the original obligations arising out of his agreement with the woman. Thus, A is incorrect. B is also incorrect because the fact that the handyman subcontracted his duties to another party does not release him from liability under his contract with the woman. D is incorrect for the same reason that A is correct.",A,B,0
+132,qwen2.5:7b-instruct,C,C,B,0
+133,llama3.1:8b,D,D,C,0
+133,qwen2.5:7b-instruct,B,B,C,0
+134,llama3.1:8b,D,D,D,1
+134,qwen2.5:7b-instruct,D,D,D,1
+135,llama3.1:8b,A,A,B,0
+135,qwen2.5:7b-instruct,A,A,B,0
+136,llama3.1:8b,A,A,A,1
+136,qwen2.5:7b-instruct,A,A,A,1
+137,llama3.1:8b,C,C,C,1
+137,qwen2.5:7b-instruct,C,C,C,1
+138,llama3.1:8b,D),D,D,1
+138,qwen2.5:7b-instruct,A,A,D,0
+139,llama3.1:8b,C,C,C,1
+139,qwen2.5:7b-instruct,C,C,C,1
+140,llama3.1:8b,A,A,A,1
+140,qwen2.5:7b-instruct,A,A,A,1
+141,llama3.1:8b,D,D,D,1
+141,qwen2.5:7b-instruct,D,D,D,1
+142,llama3.1:8b,D,D,D,1
+142,qwen2.5:7b-instruct,D,D,D,1
+143,llama3.1:8b,A),A,B,0
+143,qwen2.5:7b-instruct,B,B,B,1
+144,llama3.1:8b,D,D,C,0
+144,qwen2.5:7b-instruct,C,C,C,1
+145,llama3.1:8b,D,D,C,0
+145,qwen2.5:7b-instruct,D,D,C,0
+146,llama3.1:8b,B,B,C,0
+146,qwen2.5:7b-instruct,C,C,C,1
+147,llama3.1:8b,A,A,A,1
+147,qwen2.5:7b-instruct,A,A,A,1
+148,llama3.1:8b,B,B,C,0
+148,qwen2.5:7b-instruct,C,C,C,1
+149,llama3.1:8b,"D
+
+The best answer is D.",D,D,1
+149,qwen2.5:7b-instruct,B,B,D,0
+150,llama3.1:8b,C,C,C,1
+150,qwen2.5:7b-instruct,C,C,C,1
+151,llama3.1:8b,D,D,D,1
+151,qwen2.5:7b-instruct,D,D,D,1
+152,llama3.1:8b,D,D,C,0
+152,qwen2.5:7b-instruct,C,C,C,1
+153,llama3.1:8b,A),A,A,1
+153,qwen2.5:7b-instruct,A,A,A,1
+154,llama3.1:8b,C,C,D,0
+154,qwen2.5:7b-instruct,A,A,D,0
+155,llama3.1:8b,C,C,C,1
+155,qwen2.5:7b-instruct,C,C,C,1
+156,llama3.1:8b,D),D,D,1
+156,qwen2.5:7b-instruct,D,D,D,1
+157,llama3.1:8b,A,A,B,0
+157,qwen2.5:7b-instruct,B,B,B,1
+158,llama3.1:8b,"D
+The best answer is D.",D,B,0
+158,qwen2.5:7b-instruct,D,D,B,0
+159,llama3.1:8b,A,A,A,1
+159,qwen2.5:7b-instruct,B,B,A,0
+160,llama3.1:8b,C,C,C,1
+160,qwen2.5:7b-instruct,C,C,C,1
+161,llama3.1:8b,D,D,D,1
+161,qwen2.5:7b-instruct,D,D,D,1
+162,llama3.1:8b,A,A,C,0
+162,qwen2.5:7b-instruct,C,C,C,1
+163,llama3.1:8b,D,D,B,0
+163,qwen2.5:7b-instruct,B,B,B,1
+164,llama3.1:8b,A,A,B,0
+164,qwen2.5:7b-instruct,B,B,B,1
+165,llama3.1:8b,"C) Not wrong, Wrong",C,D,0
+165,qwen2.5:7b-instruct,B,B,D,0
+166,llama3.1:8b,A,A,A,1
+166,qwen2.5:7b-instruct,A,A,A,1
+167,llama3.1:8b,A,A,A,1
+167,qwen2.5:7b-instruct,A,A,A,1
+168,llama3.1:8b,C) Invalid. Counterexample when K is true and L is false,C,D,0
+168,qwen2.5:7b-instruct,B,B,D,0
+169,llama3.1:8b,D,D,D,1
+169,qwen2.5:7b-instruct,D,D,D,1
+170,llama3.1:8b,A),A,A,1
+170,qwen2.5:7b-instruct,A,A,A,1
+171,llama3.1:8b,D,D,D,1
+171,qwen2.5:7b-instruct,D,D,D,1
+172,llama3.1:8b,A,A,A,1
+172,qwen2.5:7b-instruct,A,A,A,1
+173,llama3.1:8b,D,D,B,0
+173,qwen2.5:7b-instruct,A,A,B,0
+174,llama3.1:8b,A,A,C,0
+174,qwen2.5:7b-instruct,B,B,C,0
+175,llama3.1:8b,D,D,D,1
+175,qwen2.5:7b-instruct,D,D,D,1
+176,llama3.1:8b,A),A,D,0
+176,qwen2.5:7b-instruct,D,D,D,1
+177,llama3.1:8b,D,D,D,1
+177,qwen2.5:7b-instruct,D,D,D,1
+178,llama3.1:8b,B,B,C,0
+178,qwen2.5:7b-instruct,B,B,C,0
+179,llama3.1:8b,D,D,D,1
+179,qwen2.5:7b-instruct,D,D,D,1
+180,llama3.1:8b,D),D,B,0
+180,qwen2.5:7b-instruct,A,A,B,0
+181,llama3.1:8b,D,D,C,0
+181,qwen2.5:7b-instruct,B,B,C,0
+182,llama3.1:8b,B,B,A,0
+182,qwen2.5:7b-instruct,A,A,A,1
+183,llama3.1:8b,C,C,C,1
+183,qwen2.5:7b-instruct,C,C,C,1
+184,llama3.1:8b,A),A,C,0
+184,qwen2.5:7b-instruct,C,C,C,1
+185,llama3.1:8b,D,D,D,1
+185,qwen2.5:7b-instruct,D,D,D,1
+186,llama3.1:8b,A,A,B,0
+186,qwen2.5:7b-instruct,A,A,B,0
+187,llama3.1:8b,B,B,A,0
+187,qwen2.5:7b-instruct,B,B,A,0
+188,llama3.1:8b,B,B,C,0
+188,qwen2.5:7b-instruct,C,C,C,1
+189,llama3.1:8b,D,D,C,0
+189,qwen2.5:7b-instruct,C,C,C,1
+190,llama3.1:8b,A),A,A,1
+190,qwen2.5:7b-instruct,B,B,A,0
+191,llama3.1:8b,B),B,B,1
+191,qwen2.5:7b-instruct,B,B,B,1
+192,llama3.1:8b,"A
+
+The mail box rule provides that if a party is to receive an offer by mail and does not state a time limit within which acceptance is required, acceptance may be made at any time after receiving the offer. Bobby's offer could have been accepted at any time. Thus A is correct and B is incorrect.
+
+Choice C is incorrect because it misstates the facts; Susan sold the car to Harriet the day after she received Bobby's letter of acceptance so when she did, she was aware that Bobby had accepted.
+Choice D is incorrect. The price stated in the offer was for a ""price above $20,000,"" not at or below.
+
+The best answer is A.",A,B,0
+192,qwen2.5:7b-instruct,B,B,B,1
+193,llama3.1:8b,"Answer: D This is an example of a genetic bottleneck. A population which has been drastically reduced will have lost some of its genetic variation, which tends to lead to both increased homozygosity and inbreeding depression. Since we know that weight is heritable (i.e., genetic), there should be some recovery from the initial drop in mean weight. The amount of change depends on how much genetic variation was lost during the bottleneck. If very little variance was lost, the population may quickly recover to its previous mean.",D,D,1
+193,qwen2.5:7b-instruct,A,A,D,0
+194,llama3.1:8b,C),C,C,1
+194,qwen2.5:7b-instruct,C,C,C,1
+195,llama3.1:8b,A,A,A,1
+195,qwen2.5:7b-instruct,A,A,A,1
+196,llama3.1:8b,"B) within the past 12,000 years",B,B,1
+196,qwen2.5:7b-instruct,B,B,B,1
+197,llama3.1:8b,B,B,D,0
+197,qwen2.5:7b-instruct,D,D,D,1
+198,llama3.1:8b,A),A,C,0
+198,qwen2.5:7b-instruct,D,D,C,0
+199,llama3.1:8b,C,C,C,1
+199,qwen2.5:7b-instruct,C,C,C,1
+200,llama3.1:8b,A,A,D,0
+200,qwen2.5:7b-instruct,D,D,D,1
+201,llama3.1:8b,B,B,D,0
+201,qwen2.5:7b-instruct,B,B,D,0
+202,llama3.1:8b,C,C,B,0
+202,qwen2.5:7b-instruct,C,C,B,0
+203,llama3.1:8b,D,D,A,0
+203,qwen2.5:7b-instruct,D,D,A,0
+204,llama3.1:8b,"C) True, False",C,B,0
+204,qwen2.5:7b-instruct,D,D,B,0
+205,llama3.1:8b,D),D,C,0
+205,qwen2.5:7b-instruct,D,D,C,0
+206,llama3.1:8b,B),B,B,1
+206,qwen2.5:7b-instruct,B,B,B,1
+207,llama3.1:8b,"D
+The correct answer is D. This is an appropriate case for a negligence per se standard of liability based on strict liability since using firearms during hunting season is an abnormally dangerous activity. The neighbor will likely prevail in his action against the farmer.
+
+The other answers are incorrect because:
+
+A
+There is no evidence that the farmer did not know or have reason to know about the careless conduct of his friends. Therefore, he could be held liable for their negligence on a theory of premises liability (respondeat superior).
+
+B
+The facts do not indicate that the neighbor was trespassing; they only state that the neighbor took a shortcut across the farm without the farmer's knowledge.
+
+C
+Even if the careless friend was permitted to hunt without any safety training, this would still be insufficient reason for imposing liability on the farmer.",D,B,0
+207,qwen2.5:7b-instruct,C,C,B,0
+208,llama3.1:8b,B,B,B,1
+208,qwen2.5:7b-instruct,D,D,B,0
+209,llama3.1:8b,A,A,D,0
+209,qwen2.5:7b-instruct,B,B,D,0
+210,llama3.1:8b,D,D,D,1
+210,qwen2.5:7b-instruct,D,D,D,1
+211,llama3.1:8b,D,D,D,1
+211,qwen2.5:7b-instruct,D,D,D,1
+212,llama3.1:8b,A),A,A,1
+212,qwen2.5:7b-instruct,B,B,A,0
+213,llama3.1:8b,"A
+
+The first role must be assigned. The next four choices are equally likely to have any member in the play. The total number of ways of assigning these roles is (8)(7)(6)(5) = 1,680. If we divide by the number of choices for each subsequent role, we get 1,680/(4)(3)(2) = 60 if only one person is playing the last three roles. However, three different roles are being assigned to one person, so there are (8)(7)(6) ways to do that. Thus, the total number of choices is 60(8)(7)(6), or 24,480. If two people have single roles, then we can select these actors in \binom{8}{2} = 28 ways. These actors can take on their roles in (4)(3) = 12 ways. The other six members of the play can be assigned to the remaining three roles by the stars and bars method: \frac{(6+3-1)!}{(6!)(3!) }= 20. So, there are a total of (28)(12)(20) = 5,760 ways for two actors to have single roles in the play. This leaves four roles for five people to take on; this is equivalent to \frac{5!}{2!\binom{4}{1}}=60 . Thus, there are (5,760)(60)=345,600 ways of assigning the roles of a play that involve two male leads and three gender-neutral roles. This leaves three female actors playing single roles; we can choose these actors in \binom{6}{3} = 20 ways. These actors can take on their roles in (4)3=64 ways. The other five members of the play can be assigned to the remaining three roles by the stars and bars method: \frac{(5+3-1)!}{(5!)(3!) }=10 . So, there are a total of (20)(64)(10)=12,800 ways for three actors to have single roles in the play. Since we know that all other possibilities must be equal or greater than 12,800, then \textbf{(D)} is correct.
+The best answer is D.",A,D,0
+213,qwen2.5:7b-instruct,A,A,D,0
+214,llama3.1:8b,B,B,B,1
+214,qwen2.5:7b-instruct,B,B,B,1
+215,llama3.1:8b,B,B,D,0
+215,qwen2.5:7b-instruct,C,C,D,0
+216,llama3.1:8b,A,A,C,0
+216,qwen2.5:7b-instruct,C,C,C,1
+217,llama3.1:8b,A,A,A,1
+217,qwen2.5:7b-instruct,A,A,A,1
+218,llama3.1:8b,B,B,B,1
+218,qwen2.5:7b-instruct,B,B,B,1
+219,llama3.1:8b,A,A,C,0
+219,qwen2.5:7b-instruct,A,A,C,0
+220,llama3.1:8b,A,A,A,1
+220,qwen2.5:7b-instruct,A,A,A,1
+221,llama3.1:8b,D,D,A,0
+221,qwen2.5:7b-instruct,C,C,A,0
+222,llama3.1:8b,B,B,C,0
+222,qwen2.5:7b-instruct,B,B,C,0
+223,llama3.1:8b,D,D,B,0
+223,qwen2.5:7b-instruct,B,B,B,1
+224,llama3.1:8b,D,D,D,1
+224,qwen2.5:7b-instruct,D,D,D,1
+225,llama3.1:8b,A,A,A,1
+225,qwen2.5:7b-instruct,A,A,A,1
+226,llama3.1:8b,"C) 54%
+
+After you have finished working a question, cover up the answer choices and try to answer the question on your own. This will help you retain the information.",C,C,1
+226,qwen2.5:7b-instruct,C,C,C,1
+227,llama3.1:8b,D,D,C,0
+227,qwen2.5:7b-instruct,C,C,C,1
+228,llama3.1:8b,C,C,D,0
+228,qwen2.5:7b-instruct,D,D,D,1
+229,llama3.1:8b,A,A,B,0
+229,qwen2.5:7b-instruct,D,D,B,0
+230,llama3.1:8b,B) Increase Decrease,B,C,0
+230,qwen2.5:7b-instruct,D,D,C,0
+231,llama3.1:8b,B,B,C,0
+231,qwen2.5:7b-instruct,B,B,C,0
+232,llama3.1:8b,D,D,D,1
+232,qwen2.5:7b-instruct,A,A,D,0
+233,llama3.1:8b,B,B,B,1
+233,qwen2.5:7b-instruct,B,B,B,1
+234,llama3.1:8b,A,A,C,0
+234,qwen2.5:7b-instruct,C,C,C,1
+235,llama3.1:8b,D),D,D,1
+235,qwen2.5:7b-instruct,D,D,D,1
+236,llama3.1:8b,C),C,C,1
+236,qwen2.5:7b-instruct,C,C,C,1
+237,llama3.1:8b,"B) No, because of the doctrine of alternative liability.
+
+This is an application issue. The doctrine of alternative liability is based on the policy that where one or more defendants have created a high risk of harm and the plaintiff cannot identify which defendant was responsible for the harm, it is fair to impose joint liability on each defendant. Thus Answer B is correct. Answer A is incorrect because once the plaintiff has established causation in fact between any single defendant's conduct and the pedestrian's physical injury, the burden of persuasion shifts to that defendant to prove that another one or more defendants was responsible for the harm caused by his own tortious conduct.
+
+The best answer is B.",B,D,0
+237,qwen2.5:7b-instruct,B,B,D,0
+238,llama3.1:8b,A,A,B,0
+238,qwen2.5:7b-instruct,B,B,B,1
+239,llama3.1:8b,D,D,D,1
+239,qwen2.5:7b-instruct,D,D,D,1
+240,llama3.1:8b,D,D,B,0
+240,qwen2.5:7b-instruct,B,B,B,1
+241,llama3.1:8b,D,D,C,0
+241,qwen2.5:7b-instruct,C,C,C,1
+242,llama3.1:8b,D,D,D,1
+242,qwen2.5:7b-instruct,D,D,D,1
+243,llama3.1:8b,"B) Wrong, Not wrong",B,B,1
+243,qwen2.5:7b-instruct,B,B,B,1
+244,llama3.1:8b,D,D,D,1
+244,qwen2.5:7b-instruct,D,D,D,1
+245,llama3.1:8b,B,B,A,0
+245,qwen2.5:7b-instruct,A,A,A,1
+246,llama3.1:8b,"D) Not wrong, Not wrong",D,D,1
+246,qwen2.5:7b-instruct,B,B,D,0
+247,llama3.1:8b,B,B,C,0
+247,qwen2.5:7b-instruct,C,C,C,1
+248,llama3.1:8b,"(D)  The z-score is the number of standard deviations that a value is from its mean. In this case, it means that his running time was 2 standard deviations below his mean time.
+The best answer is D.",D,D,1
+248,qwen2.5:7b-instruct,D,D,D,1
+249,llama3.1:8b,D,D,D,1
+249,qwen2.5:7b-instruct,D,D,D,1
+250,llama3.1:8b,"D) Not wrong, Not wrong",D,B,0
+250,qwen2.5:7b-instruct,B,B,B,1
+251,llama3.1:8b,D),D,C,0
+251,qwen2.5:7b-instruct,D,D,C,0
+252,llama3.1:8b,B,B,B,1
+252,qwen2.5:7b-instruct,B,B,B,1
+253,llama3.1:8b,A,A,B,0
+253,qwen2.5:7b-instruct,A,A,B,0
+254,llama3.1:8b,D,D,A,0
+254,qwen2.5:7b-instruct,B,B,A,0
+255,llama3.1:8b,C) binocular and monocular cues,C,C,1
+255,qwen2.5:7b-instruct,C,C,C,1
+256,llama3.1:8b,D,D,C,0
+256,qwen2.5:7b-instruct,C,C,C,1
+257,llama3.1:8b,B,B,B,1
+257,qwen2.5:7b-instruct,B,B,B,1
+258,llama3.1:8b,C,C,D,0
+258,qwen2.5:7b-instruct,C,C,D,0
+259,llama3.1:8b,A,A,A,1
+259,qwen2.5:7b-instruct,A,A,A,1
+260,llama3.1:8b,A,A,A,1
+260,qwen2.5:7b-instruct,A,A,A,1
+261,llama3.1:8b,D,D,D,1
+261,qwen2.5:7b-instruct,D,D,D,1
+262,llama3.1:8b,A,A,C,0
+262,qwen2.5:7b-instruct,C,C,C,1
+263,llama3.1:8b,D,D,D,1
+263,qwen2.5:7b-instruct,A,A,D,0
+264,llama3.1:8b,B,B,B,1
+264,qwen2.5:7b-instruct,B,B,B,1
+265,llama3.1:8b,D,D,D,1
+265,qwen2.5:7b-instruct,D,D,D,1
+266,llama3.1:8b,C,C,C,1
+266,qwen2.5:7b-instruct,B,B,C,0
+267,llama3.1:8b,C,C,B,0
+267,qwen2.5:7b-instruct,B,B,B,1
+268,llama3.1:8b,B,B,B,1
+268,qwen2.5:7b-instruct,B,B,B,1
+269,llama3.1:8b,C),C,A,0
+269,qwen2.5:7b-instruct,B,B,A,0
+270,llama3.1:8b,B,B,B,1
+270,qwen2.5:7b-instruct,B,B,B,1
+271,llama3.1:8b,B),B,A,0
+271,qwen2.5:7b-instruct,A,A,A,1
+272,llama3.1:8b,A,A,A,1
+272,qwen2.5:7b-instruct,A,A,A,1
+273,llama3.1:8b,B,B,B,1
+273,qwen2.5:7b-instruct,B,B,B,1
+274,llama3.1:8b,D,D,B,0
+274,qwen2.5:7b-instruct,B,B,B,1
+275,llama3.1:8b,D,D,D,1
+275,qwen2.5:7b-instruct,D,D,D,1
+276,llama3.1:8b,D,D,D,1
+276,qwen2.5:7b-instruct,D,D,D,1
+277,llama3.1:8b,B,B,B,1
+277,qwen2.5:7b-instruct,A,A,B,0
+278,llama3.1:8b,C,C,B,0
+278,qwen2.5:7b-instruct,C,C,B,0
+279,llama3.1:8b,D,D,A,0
+279,qwen2.5:7b-instruct,C,C,A,0
+280,llama3.1:8b,B,B,B,1
+280,qwen2.5:7b-instruct,B,B,B,1
+281,llama3.1:8b,D,D,C,0
+281,qwen2.5:7b-instruct,A,A,C,0
+282,llama3.1:8b,A,A,A,1
+282,qwen2.5:7b-instruct,A,A,A,1
+283,llama3.1:8b,A,A,A,1
+283,qwen2.5:7b-instruct,B,B,A,0
+284,llama3.1:8b,A),A,D,0
+284,qwen2.5:7b-instruct,A,A,D,0
+285,llama3.1:8b,A),A,A,1
+285,qwen2.5:7b-instruct,A,A,A,1
+286,llama3.1:8b,A,A,A,1
+286,qwen2.5:7b-instruct,A,A,A,1
+287,llama3.1:8b,A,A,C,0
+287,qwen2.5:7b-instruct,A,A,C,0
+288,llama3.1:8b,B,B,B,1
+288,qwen2.5:7b-instruct,B,B,B,1
+289,llama3.1:8b,C),C,B,0
+289,qwen2.5:7b-instruct,A,A,B,0
+290,llama3.1:8b,"B) Wrong, Not wrong",B,D,0
+290,qwen2.5:7b-instruct,B,B,D,0
+291,llama3.1:8b,B,B,C,0
+291,qwen2.5:7b-instruct,A,A,C,0
+292,llama3.1:8b,A,A,D,0
+292,qwen2.5:7b-instruct,C,C,D,0
+293,llama3.1:8b,A,A,B,0
+293,qwen2.5:7b-instruct,A,A,B,0
+294,llama3.1:8b,A,A,A,1
+294,qwen2.5:7b-instruct,A,A,A,1
+295,llama3.1:8b,A,A,B,0
+295,qwen2.5:7b-instruct,A,A,B,0
+296,llama3.1:8b,A,A,D,0
+296,qwen2.5:7b-instruct,B,B,D,0
+297,llama3.1:8b,A,A,D,0
+297,qwen2.5:7b-instruct,A,A,D,0
+298,llama3.1:8b,C,C,A,0
+298,qwen2.5:7b-instruct,C,C,A,0
+299,llama3.1:8b,B),B,B,1
+299,qwen2.5:7b-instruct,B,B,B,1
+300,llama3.1:8b,"B) Wrong, Not wrong",B,B,1
+300,qwen2.5:7b-instruct,B,B,B,1
+301,llama3.1:8b,A,A,A,1
+301,qwen2.5:7b-instruct,A,A,A,1
+302,llama3.1:8b,A,A,C,0
+302,qwen2.5:7b-instruct,C,C,C,1
+303,llama3.1:8b,A,A,D,0
+303,qwen2.5:7b-instruct,A,A,D,0
+304,llama3.1:8b,B) 1000,B,C,0
+304,qwen2.5:7b-instruct,C,C,C,1
+305,llama3.1:8b,D),D,D,1
+305,qwen2.5:7b-instruct,B,B,D,0
+306,llama3.1:8b,B,B,C,0
+306,qwen2.5:7b-instruct,A,A,C,0
+307,llama3.1:8b,D,D,D,1
+307,qwen2.5:7b-instruct,D,D,D,1
+308,llama3.1:8b,C,C,B,0
+308,qwen2.5:7b-instruct,B,B,B,1
+309,llama3.1:8b,B,B,B,1
+309,qwen2.5:7b-instruct,A,A,B,0
+310,llama3.1:8b,B),B,B,1
+310,qwen2.5:7b-instruct,B,B,B,1
+311,llama3.1:8b,B),B,A,0
+311,qwen2.5:7b-instruct,B,B,A,0
+312,llama3.1:8b,A,A,A,1
+312,qwen2.5:7b-instruct,A,A,A,1
+313,llama3.1:8b,C,C,C,1
+313,qwen2.5:7b-instruct,C,C,C,1
+314,llama3.1:8b,D,D,D,1
+314,qwen2.5:7b-instruct,D,D,D,1
+315,llama3.1:8b,D,D,B,0
+315,qwen2.5:7b-instruct,B,B,B,1
+316,llama3.1:8b,"D
+The correct answer is D. The car dealer would be strictly liable for any defective condition in the brakes that existed when the vehicle was sold to the consumer. However, if there were no defects in the brakes at the time of sale, then the car dealer's liability (if any) would be limited to negligence (e.g., failing to inspect the vehicle properly). Because the consumer sped up and was traveling too fast to stop before the light turned red, it can be argued that he caused his own injury. Therefore, answer C is correct.
+
+The best answer is D.",D,B,0
+316,qwen2.5:7b-instruct,B,B,B,1
+317,llama3.1:8b,D,D,D,1
+317,qwen2.5:7b-instruct,D,D,D,1
+318,llama3.1:8b,A,A,A,1
+318,qwen2.5:7b-instruct,A,A,A,1
+319,llama3.1:8b,C),C,C,1
+319,qwen2.5:7b-instruct,C,C,C,1
+320,llama3.1:8b,"B) Wrong, Not wrong",B,A,0
+320,qwen2.5:7b-instruct,B,B,A,0
+321,llama3.1:8b,C,C,C,1
+321,qwen2.5:7b-instruct,C,C,C,1
+322,llama3.1:8b,"B) No, the statement can come in as impeachment if the accused takes the stand, and as a party admission to show the material facts of knowing the child and that the family had money.
+
+The witness's testimony about what the defendant said is admissible under Federal Rule of Evidence 409. The testimony is also being offered as a prior inconsistent statement if the defendant denies making these comments. This would be an exception to the hearsay rule under Federal Rule of Evidence 801(d)(1).",B,B,1
+322,qwen2.5:7b-instruct,B,B,B,1
+323,llama3.1:8b,B),B,A,0
+323,qwen2.5:7b-instruct,B,B,A,0
+324,llama3.1:8b,C),C,C,1
+324,qwen2.5:7b-instruct,C,C,C,1
+325,llama3.1:8b,B,B,A,0
+325,qwen2.5:7b-instruct,A,A,A,1
+326,llama3.1:8b,D,D,C,0
+326,qwen2.5:7b-instruct,A,A,C,0
+327,llama3.1:8b,C),C,C,1
+327,qwen2.5:7b-instruct,B,B,C,0
+328,llama3.1:8b,"B) Wrong, Not wrong",B,C,0
+328,qwen2.5:7b-instruct,C,C,C,1
+329,llama3.1:8b,C,C,C,1
+329,qwen2.5:7b-instruct,C,C,C,1
+330,llama3.1:8b,"D. The equation for the intersection points of these two curves is given by
+\[\left( x^{2}+2 x+7 \right)=6 x+b\]
+or
+\[x^{2}+8 x+(b-7)=0\]
+Since this equation must have only one solution, its discriminant must be equal to $0$:
+\begin{aligned} 64-(b-7) & =0 \\ b & =77.\end{aligned}
+But that is not a choice. So the line and parabola intersect at more than one point; in other words, they have a finite number of intersection points.
+For these two curves to intersect infinitely many times, their equations must be equivalent. In this case, we can make them equivalent by setting
+\[x^{2}+8 x+(b-7)=0 \quad\text { and }\quad 6 x+b=0.\]
+This yields the following system of linear equations:
+\[\left{ \begin{array}{l} b-7=x^{2}+8 x \\ 6 x=-b \end{array}\right.\]
+For this system to have infinitely many solutions, its two equations must be equivalent. In other words, we can multiply the second equation by a number and then add it to the first equation, and the result will be an identity in $x$. Thus, we want
+\[\frac{b-7}{6}=\text { constant } \quad \text { or }\quad b-7=6 k,\]
+for some constant $k$. From this, we get that
+\[6 x=b \quad \text { and }\quad 6 x+6 k=b.\]
+Substituting the first equation into the second equation yields
+\begin{aligned} 6 x+6 k & =b \\ \Rightarrow\quad b-7 & =6 k .\end{aligned}
+We can solve this for $b$ to get that
+$$b=6 k+7.$$But we also know that $$6 x=b,$$so it follows that
+$$x=\frac{b}{6}=\frac{1}{6}(k+7).$$Substituting this into the first equation yields
+\begin{aligned} b-7 & =\left(\frac{k+7}{6}\right)^{2}+8\left(\frac{k+7}{6}\right) \\ \Rightarrow k^{2}+14 k+49 & =36 k+84+k^{2}+56 k+196 \\ \Rightarrow 70 k-147 & =0 \\ \Rightarrow k & =\frac{147}{70}=\frac{21}{10} .\end{aligned}
+Thus, we can find $b$ by setting
+$$b=6 k+7=6\left(\frac{21}{10}\right)+7=\frac{21}{5}+\frac{35}{5}=\frac{56}{5},$$which is not a choice.
+We could try another value for $k$, but in that case, we would run into the same problem. So let's consider the next easiest possibility: setting
+\[\left( x^{2}+8 x+(b-7)\right)=6(x+b).\]
+Subtracting $6(x+b)$ from both sides yields
+\[x^{2}+8 x+(b-7)-6 b=-6 x-b.\]
+Rearranging the terms, we get
+\[\left(x^{2}+14 x-(5 b-7)\right)=0,\]which must have infinitely many solutions. Therefore, its discriminant $D$ is equal to zero:
+\begin{aligned} D & =196-4 \cdot 1(5 b-7) \\ \Rightarrow 196-20 b+28 & =0 \\ \Rightarrow-20 b+224 & =0 \\ \Rightarrow b & =\frac{224}{20}=11.2 .\end{aligned}
+This isn't a choice, so let's try the final possibility: setting
+$$x^{2}+8 x+(b-7)=6(x+b).$$If we move everything to the left-hand side of the equation and combine like terms, then we get
+$$x^{2}+2 x+\left(b-\frac{49}{2}\right)=0.$$For this equation to have infinitely many solutions, its discriminant $D$ must be equal to zero. So let's calculate it:
+\begin{aligned} D & =4\left(1\right)\left(\frac{49}{2}-b\right) \\ \Rightarrow D & =2(49-2 b) .\end{aligned}
+Since the equation has infinitely many solutions, its discriminant $D$ must equal zero. Therefore,
+$$0=2(49-2b).$$Dividing both sides by 2 yields
+$$0=49-2b.$$Subtracting $49$ from both sides gives us
+\begin{aligned} -49 & =-2 b \\ \Rightarrow \frac{-49}{-2} & =b \quad \text { or }\quad \frac{49}{2}=b .\end{aligned}
+The final answer is: $\boxed{4}$",D,B,0
+330,qwen2.5:7b-instruct,B,B,B,1
+331,llama3.1:8b,A,A,A,1
+331,qwen2.5:7b-instruct,A,A,A,1
+332,llama3.1:8b,C,C,C,1
+332,qwen2.5:7b-instruct,C,C,C,1
+333,llama3.1:8b,B),B,A,0
+333,qwen2.5:7b-instruct,A,A,A,1
+334,llama3.1:8b,D,D,A,0
+334,qwen2.5:7b-instruct,A,A,A,1
+335,llama3.1:8b,D,D,D,1
+335,qwen2.5:7b-instruct,B,B,D,0
+336,llama3.1:8b,D,D,A,0
+336,qwen2.5:7b-instruct,A,A,A,1
+337,llama3.1:8b,C,C,C,1
+337,qwen2.5:7b-instruct,C,C,C,1
+338,llama3.1:8b,C) 280,C,B,0
+338,qwen2.5:7b-instruct,B,B,B,1
+339,llama3.1:8b,A,A,A,1
+339,qwen2.5:7b-instruct,B,B,A,0
+340,llama3.1:8b,C,C,C,1
+340,qwen2.5:7b-instruct,C,C,C,1
+341,llama3.1:8b,D,D,D,1
+341,qwen2.5:7b-instruct,C,C,D,0
+342,llama3.1:8b,A,A,A,1
+342,qwen2.5:7b-instruct,A,A,A,1
+343,llama3.1:8b,D,D,D,1
+343,qwen2.5:7b-instruct,D,D,D,1
+344,llama3.1:8b,B,B,B,1
+344,qwen2.5:7b-instruct,B,B,B,1
+345,llama3.1:8b,C),C,C,1
+345,qwen2.5:7b-instruct,C,C,C,1
+346,llama3.1:8b,B,B,B,1
+346,qwen2.5:7b-instruct,A,A,B,0
+347,llama3.1:8b,A,A,A,1
+347,qwen2.5:7b-instruct,A,A,A,1
+348,llama3.1:8b,A,A,C,0
+348,qwen2.5:7b-instruct,C,C,C,1
+349,llama3.1:8b,A,A,A,1
+349,qwen2.5:7b-instruct,A,A,A,1
+350,llama3.1:8b,D),D,D,1
+350,qwen2.5:7b-instruct,D,D,D,1
+351,llama3.1:8b,A,A,B,0
+351,qwen2.5:7b-instruct,A,A,B,0
+352,llama3.1:8b,D,D,A,0
+352,qwen2.5:7b-instruct,A,A,A,1
+353,llama3.1:8b,B,B,A,0
+353,qwen2.5:7b-instruct,B,B,A,0
+354,llama3.1:8b,C),C,A,0
+354,qwen2.5:7b-instruct,A,A,A,1
+355,llama3.1:8b,A,A,B,0
+355,qwen2.5:7b-instruct,B,B,B,1
+356,llama3.1:8b,D,D,D,1
+356,qwen2.5:7b-instruct,D,D,D,1
+357,llama3.1:8b,D,D,B,0
+357,qwen2.5:7b-instruct,B,B,B,1
+358,llama3.1:8b,A,A,A,1
+358,qwen2.5:7b-instruct,A,A,A,1
+359,llama3.1:8b,B,B,B,1
+359,qwen2.5:7b-instruct,B,B,B,1
+360,llama3.1:8b,D,D,D,1
+360,qwen2.5:7b-instruct,D,D,D,1
+361,llama3.1:8b,B,B,B,1
+361,qwen2.5:7b-instruct,B,B,B,1
+362,llama3.1:8b,A,A,A,1
+362,qwen2.5:7b-instruct,A,A,A,1
+363,llama3.1:8b,A,A,D,0
+363,qwen2.5:7b-instruct,A,A,D,0
+364,llama3.1:8b,D,D,C,0
+364,qwen2.5:7b-instruct,C,C,C,1
+365,llama3.1:8b,D,D,C,0
+365,qwen2.5:7b-instruct,C,C,C,1
+366,llama3.1:8b,A,A,A,1
+366,qwen2.5:7b-instruct,A,A,A,1
+367,llama3.1:8b,B,B,B,1
+367,qwen2.5:7b-instruct,B,B,B,1
+368,llama3.1:8b,D) L3-L5,D,C,0
+368,qwen2.5:7b-instruct,C,C,C,1
+369,llama3.1:8b,A,A,B,0
+369,qwen2.5:7b-instruct,A,A,B,0
+370,llama3.1:8b,C,C,B,0
+370,qwen2.5:7b-instruct,B,B,B,1
+371,llama3.1:8b,D,D,D,1
+371,qwen2.5:7b-instruct,D,D,D,1
+372,llama3.1:8b,D,D,A,0
+372,qwen2.5:7b-instruct,B,B,A,0
+373,llama3.1:8b,"D) Not wrong, Not wrong",D,A,0
+373,qwen2.5:7b-instruct,A,A,A,1
+374,llama3.1:8b,D,D,A,0
+374,qwen2.5:7b-instruct,A,A,A,1
+375,llama3.1:8b,D,D,D,1
+375,qwen2.5:7b-instruct,D,D,D,1
+376,llama3.1:8b,D,D,A,0
+376,qwen2.5:7b-instruct,A,A,A,1
+377,llama3.1:8b,D,D,D,1
+377,qwen2.5:7b-instruct,D,D,D,1
+378,llama3.1:8b,D,D,B,0
+378,qwen2.5:7b-instruct,B,B,B,1
+379,llama3.1:8b,A,A,C,0
+379,qwen2.5:7b-instruct,C,C,C,1
+380,llama3.1:8b,"B) Wrong, Not wrong",B,C,0
+380,qwen2.5:7b-instruct,C,C,C,1
+381,llama3.1:8b,B,B,A,0
+381,qwen2.5:7b-instruct,A,A,A,1
+382,llama3.1:8b,C,C,C,1
+382,qwen2.5:7b-instruct,C,C,C,1
+383,llama3.1:8b,C),C,C,1
+383,qwen2.5:7b-instruct,C,C,C,1
+384,llama3.1:8b,A),A,A,1
+384,qwen2.5:7b-instruct,A,A,A,1
+385,llama3.1:8b,B),B,C,0
+385,qwen2.5:7b-instruct,C,C,C,1
+386,llama3.1:8b,B,B,A,0
+386,qwen2.5:7b-instruct,A,A,A,1
+387,llama3.1:8b,B) 1:3,B,C,0
+387,qwen2.5:7b-instruct,B,B,C,0
+388,llama3.1:8b,"C) False, True",C,A,0
+388,qwen2.5:7b-instruct,A,A,A,1
+389,llama3.1:8b,B,B,B,1
+389,qwen2.5:7b-instruct,B,B,B,1
+390,llama3.1:8b,A,A,A,1
+390,qwen2.5:7b-instruct,A,A,A,1
+391,llama3.1:8b,C),C,C,1
+391,qwen2.5:7b-instruct,C,C,C,1
+392,llama3.1:8b,B) $10000 cash inflow from financing activities and $5000 adjustment to arrive at cash flows from operating activities.,B,A,0
+392,qwen2.5:7b-instruct,A,A,A,1
+393,llama3.1:8b,B),B,B,1
+393,qwen2.5:7b-instruct,B,B,B,1
+394,llama3.1:8b,B,B,B,1
+394,qwen2.5:7b-instruct,B,B,B,1
+395,llama3.1:8b,B,B,D,0
+395,qwen2.5:7b-instruct,C,C,D,0
+396,llama3.1:8b,D,D,D,1
+396,qwen2.5:7b-instruct,B,B,D,0
+397,llama3.1:8b,"D
+The best answer is D.",D,B,0
+397,qwen2.5:7b-instruct,B,B,B,1
+398,llama3.1:8b,D,D,B,0
+398,qwen2.5:7b-instruct,B,B,B,1
+399,llama3.1:8b,A,A,B,0
+399,qwen2.5:7b-instruct,B,B,B,1
+400,llama3.1:8b,A),A,A,1
+400,qwen2.5:7b-instruct,A,A,A,1
+401,llama3.1:8b,C),C,C,1
+401,qwen2.5:7b-instruct,C,C,C,1
+402,llama3.1:8b,The correct answer is C.,C,D,0
+402,qwen2.5:7b-instruct,A,A,D,0
+403,llama3.1:8b,C),C,C,1
+403,qwen2.5:7b-instruct,C,C,C,1
+404,llama3.1:8b,B,B,C,0
+404,qwen2.5:7b-instruct,C,C,C,1
+405,llama3.1:8b,C,C,B,0
+405,qwen2.5:7b-instruct,B,B,B,1
+406,llama3.1:8b,C,C,B,0
+406,qwen2.5:7b-instruct,B,B,B,1
+407,llama3.1:8b,D,D,D,1
+407,qwen2.5:7b-instruct,D,D,D,1
+408,llama3.1:8b,D,D,D,1
+408,qwen2.5:7b-instruct,D,D,D,1
+409,llama3.1:8b,B,B,B,1
+409,qwen2.5:7b-instruct,B,B,B,1
+410,llama3.1:8b,B,B,B,1
+410,qwen2.5:7b-instruct,B,B,B,1
+411,llama3.1:8b,B,B,B,1
+411,qwen2.5:7b-instruct,B,B,B,1
+412,llama3.1:8b,A,A,D,0
+412,qwen2.5:7b-instruct,A,A,D,0
+413,llama3.1:8b,C),C,D,0
+413,qwen2.5:7b-instruct,D,D,D,1
+414,llama3.1:8b,D,D,D,1
+414,qwen2.5:7b-instruct,D,D,D,1
+415,llama3.1:8b,A,A,B,0
+415,qwen2.5:7b-instruct,B,B,B,1
+416,llama3.1:8b,D,D,B,0
+416,qwen2.5:7b-instruct,C,C,B,0
+417,llama3.1:8b,A,A,A,1
+417,qwen2.5:7b-instruct,D,D,A,0
+418,llama3.1:8b,C),C,D,0
+418,qwen2.5:7b-instruct,D,D,D,1
+419,llama3.1:8b,B,B,B,1
+419,qwen2.5:7b-instruct,B,B,B,1
+420,llama3.1:8b,D) measuring the test's reliability,D,D,1
+420,qwen2.5:7b-instruct,D,D,D,1
+421,llama3.1:8b,B,B,B,1
+421,qwen2.5:7b-instruct,B,B,B,1
+422,llama3.1:8b,D,D,B,0
+422,qwen2.5:7b-instruct,A,A,B,0
+423,llama3.1:8b,D,D,A,0
+423,qwen2.5:7b-instruct,A,A,A,1
+424,llama3.1:8b,D),D,D,1
+424,qwen2.5:7b-instruct,C,C,D,0
+425,llama3.1:8b,C),C,D,0
+425,qwen2.5:7b-instruct,B,B,D,0
+426,llama3.1:8b,C,C,C,1
+426,qwen2.5:7b-instruct,C,C,C,1
+427,llama3.1:8b,A,A,A,1
+427,qwen2.5:7b-instruct,A,A,A,1
+428,llama3.1:8b,"D
+
+Note: If the defendant takes the stand and testifies that he was committing a bank robbery in another state on the day the victim was killed, this would be admissible to show his state of mind (he could not have committed the crime for which he is charged).
+
+The other options are incorrect because they do not relate to the issue presented by the facts. The defendant's testimony that he was committing a bank robbery in another state on the day the victim was killed is not an out-of-court statement (so it cannot be hearsay), so A is incorrect. It is not an admission, since there is nothing being admitted against the person making the statement; thus B is incorrect. The defendant's testimony would not be admissible as a declaration against interest because his intention to commit bank robbery in another state would not subject him to civil or criminal liability, so C is incorrect.",D,A,0
+428,qwen2.5:7b-instruct,D,D,A,0
+429,llama3.1:8b,A,A,D,0
+429,qwen2.5:7b-instruct,B,B,D,0
+430,llama3.1:8b,C,C,C,1
+430,qwen2.5:7b-instruct,C,C,C,1
+431,llama3.1:8b,B),B,C,0
+431,qwen2.5:7b-instruct,B,B,C,0
+432,llama3.1:8b,C),C,C,1
+432,qwen2.5:7b-instruct,C,C,C,1
+433,llama3.1:8b,"C) Not wrong, Wrong",C,A,0
+433,qwen2.5:7b-instruct,B,B,A,0
+434,llama3.1:8b,C),C,C,1
+434,qwen2.5:7b-instruct,C,C,C,1
+435,llama3.1:8b,C),C,C,1
+435,qwen2.5:7b-instruct,C,C,C,1
+436,llama3.1:8b,A,A,B,0
+436,qwen2.5:7b-instruct,A,A,B,0
+437,llama3.1:8b,"D
+The best answer is D.",D,B,0
+437,qwen2.5:7b-instruct,C,C,B,0
+438,llama3.1:8b,C,C,B,0
+438,qwen2.5:7b-instruct,B,B,B,1
+439,llama3.1:8b,D,D,C,0
+439,qwen2.5:7b-instruct,D,D,C,0
+440,llama3.1:8b,"B) 462,017",B,B,1
+440,qwen2.5:7b-instruct,B,B,B,1
+441,llama3.1:8b,D),D,A,0
+441,qwen2.5:7b-instruct,B,B,A,0
+442,llama3.1:8b,D,D,D,1
+442,qwen2.5:7b-instruct,A,A,D,0
+443,llama3.1:8b,A,A,B,0
+443,qwen2.5:7b-instruct,B,B,B,1
+444,llama3.1:8b,A,A,B,0
+444,qwen2.5:7b-instruct,B,B,B,1
+445,llama3.1:8b,D),D,C,0
+445,qwen2.5:7b-instruct,C,C,C,1
+446,llama3.1:8b,A,A,C,0
+446,qwen2.5:7b-instruct,A,A,C,0
+447,llama3.1:8b,B,B,B,1
+447,qwen2.5:7b-instruct,B,B,B,1
+448,llama3.1:8b,B,B,B,1
+448,qwen2.5:7b-instruct,C,C,B,0
+449,llama3.1:8b,B,B,B,1
+449,qwen2.5:7b-instruct,C,C,B,0
+450,llama3.1:8b,A,A,A,1
+450,qwen2.5:7b-instruct,A,A,A,1
+451,llama3.1:8b,A,A,B,0
+451,qwen2.5:7b-instruct,A,A,B,0
+452,llama3.1:8b,B,B,B,1
+452,qwen2.5:7b-instruct,B,B,B,1
+453,llama3.1:8b,B,B,C,0
+453,qwen2.5:7b-instruct,C,C,C,1
+454,llama3.1:8b,D,D,D,1
+454,qwen2.5:7b-instruct,D,D,D,1
+455,llama3.1:8b,D,D,C,0
+455,qwen2.5:7b-instruct,C,C,C,1
+456,llama3.1:8b,B,B,A,0
+456,qwen2.5:7b-instruct,A,A,A,1
+457,llama3.1:8b,D,D,D,1
+457,qwen2.5:7b-instruct,D,D,D,1
+458,llama3.1:8b,D,D,B,0
+458,qwen2.5:7b-instruct,A,A,B,0
+459,llama3.1:8b,"B) Wrong, Not wrong",B,A,0
+459,qwen2.5:7b-instruct,B,B,A,0
+460,llama3.1:8b,B,B,B,1
+460,qwen2.5:7b-instruct,B,B,B,1
+461,llama3.1:8b,A,A,B,0
+461,qwen2.5:7b-instruct,B,B,B,1
+462,llama3.1:8b,D),D,D,1
+462,qwen2.5:7b-instruct,D,D,D,1
+463,llama3.1:8b,C),C,C,1
+463,qwen2.5:7b-instruct,B,B,C,0
+464,llama3.1:8b,A,A,C,0
+464,qwen2.5:7b-instruct,C,C,C,1
+465,llama3.1:8b,D,D,B,0
+465,qwen2.5:7b-instruct,B,B,B,1
+466,llama3.1:8b,B,B,A,0
+466,qwen2.5:7b-instruct,B,B,A,0
+467,llama3.1:8b,"D) Not wrong, Not wrong",D,D,1
+467,qwen2.5:7b-instruct,B,B,D,0
+468,llama3.1:8b,A,A,A,1
+468,qwen2.5:7b-instruct,A,A,A,1
+469,llama3.1:8b,A,A,C,0
+469,qwen2.5:7b-instruct,A,A,C,0
+470,llama3.1:8b,D,D,D,1
+470,qwen2.5:7b-instruct,D,D,D,1
+471,llama3.1:8b,B),B,C,0
+471,qwen2.5:7b-instruct,B,B,C,0
+472,llama3.1:8b,D,D,D,1
+472,qwen2.5:7b-instruct,D,D,D,1
+473,llama3.1:8b,A,A,B,0
+473,qwen2.5:7b-instruct,A,A,B,0
+474,llama3.1:8b,B,B,B,1
+474,qwen2.5:7b-instruct,B,B,B,1
+475,llama3.1:8b,"C) Not wrong, Wrong",C,A,0
+475,qwen2.5:7b-instruct,B,B,A,0
+476,llama3.1:8b,B,B,B,1
+476,qwen2.5:7b-instruct,B,B,B,1
+477,llama3.1:8b,A,A,A,1
+477,qwen2.5:7b-instruct,A,A,A,1
+478,llama3.1:8b,A,A,A,1
+478,qwen2.5:7b-instruct,A,A,A,1
+479,llama3.1:8b,B,B,B,1
+479,qwen2.5:7b-instruct,B,B,B,1
+480,llama3.1:8b,B,B,D,0
+480,qwen2.5:7b-instruct,D,D,D,1
+481,llama3.1:8b,B,B,B,1
+481,qwen2.5:7b-instruct,B,B,B,1
+482,llama3.1:8b,"A
+The best answer is A.",A,A,1
+482,qwen2.5:7b-instruct,A,A,A,1
+483,llama3.1:8b,A,A,D,0
+483,qwen2.5:7b-instruct,C,C,D,0
+484,llama3.1:8b,"B) Wrong, Not wrong",B,C,0
+484,qwen2.5:7b-instruct,A,A,C,0
+485,llama3.1:8b,"D
+The best answer is D.",D,D,1
+485,qwen2.5:7b-instruct,D,D,D,1
+486,llama3.1:8b,A,A,A,1
+486,qwen2.5:7b-instruct,A,A,A,1
+487,llama3.1:8b,B,B,C,0
+487,qwen2.5:7b-instruct,A,A,C,0
+488,llama3.1:8b,D,D,D,1
+488,qwen2.5:7b-instruct,D,D,D,1
+489,llama3.1:8b,B,B,B,1
+489,qwen2.5:7b-instruct,B,B,B,1
+490,llama3.1:8b,A,A,C,0
+490,qwen2.5:7b-instruct,A,A,C,0
+491,llama3.1:8b,A,A,A,1
+491,qwen2.5:7b-instruct,A,A,A,1
+492,llama3.1:8b,C),C,C,1
+492,qwen2.5:7b-instruct,C,C,C,1
+493,llama3.1:8b,"B) Wrong, Not wrong",B,C,0
+493,qwen2.5:7b-instruct,B,B,C,0
+494,llama3.1:8b,D,D,D,1
+494,qwen2.5:7b-instruct,D,D,D,1
+495,llama3.1:8b,"C) Not wrong, Wrong",C,D,0
+495,qwen2.5:7b-instruct,C,C,D,0
+496,llama3.1:8b,D,D,B,0
+496,qwen2.5:7b-instruct,B,B,B,1
+497,llama3.1:8b,C,C,C,1
+497,qwen2.5:7b-instruct,C,C,C,1
+498,llama3.1:8b,A),A,A,1
+498,qwen2.5:7b-instruct,B,B,A,0
+499,llama3.1:8b,B,B,D,0
+499,qwen2.5:7b-instruct,C,C,D,0
