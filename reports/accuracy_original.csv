@@ -1,0 +1,3 @@
+model,accuracy
+llama3.1:8b,0.51
+qwen2.5:7b-instruct,0.69

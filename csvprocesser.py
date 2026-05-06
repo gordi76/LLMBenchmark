@@ -29,7 +29,11 @@ def ask_model(model, prompt):
             "messages": [
                 {"role": "user", "content": prompt}
             ],
-            "stream": False
+            "stream": False,
+            "options": {
+                "temperature": 0,
+                "seed": 42
+            }
         },
         timeout=120
     )

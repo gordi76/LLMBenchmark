@@ -1,0 +1,5 @@
+group,count
+both_correct,214
+both_wrong,114
+only_llama3.1:8b_correct,41
+only_qwen2.5:7b-instruct_correct,131

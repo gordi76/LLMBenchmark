@@ -1,0 +1,6 @@
+group,count
+all_items,500
+non_differentiating_items,328
+differentiating_items,172
+naive_pruned_items,172
+balanced_pruned_items,182
