@@ -13,8 +13,8 @@ hard = analysis[analysis["is_correct"] < 0.2]
 diff = analysis[analysis["is_same"] == False]
 
 selected = pd.concat([
-    easy.sample(min(5, len(easy))),
-    hard.sample(min(5, len(hard))),
+    easy.sample(min(5, len(easy)), random_state=42),
+    hard.sample(min(5, len(hard)), random_state=42),
     diff
 ])
 
