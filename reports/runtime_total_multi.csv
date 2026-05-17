@@ -1,2 +1,2 @@
-total_rows,total_runtime_seconds,total_runtime_minutes,mean_runtime_seconds
-3000,29916.942,498.616,9.972
+total_rows,total_runtime_seconds,total_runtime_minutes,total_runtime_hours,mean_runtime_seconds
+3000,29916.942,498.616,8.31,9.972
