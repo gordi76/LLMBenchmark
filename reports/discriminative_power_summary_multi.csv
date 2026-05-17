@@ -1,0 +1,4 @@
+discriminative_group,count,share
+bottom_models_better,69,0.138
+no_difference,256,0.512
+top_models_better,175,0.35

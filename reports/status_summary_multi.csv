@@ -1,0 +1,8 @@
+model,status,count
+gemma3:4b,ok,500
+llama3.1:8b,ok,500
+llama3.2:3b,ok,500
+mistral:7b,ok,500
+phi3:mini,error,3
+phi3:mini,ok,497
+qwen2.5:7b-instruct,ok,500

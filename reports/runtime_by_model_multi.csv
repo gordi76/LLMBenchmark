@@ -1,0 +1,7 @@
+model,total_runtime_seconds,mean_runtime_seconds,median_runtime_seconds,max_runtime_seconds
+phi3:mini,6722.04,13.444,7.345,608.171
+llama3.1:8b,5845.711,11.691,10.533,44.78
+qwen2.5:7b-instruct,5558.596,11.117,10.362,24.687
+mistral:7b,5199.137,10.398,9.006,61.832
+gemma3:4b,3859.905,7.72,7.37,14.019
+llama3.2:3b,2731.553,5.463,5.864,12.072
